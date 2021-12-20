@@ -1,35 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-  <script
-  src="https://code.jquery.com/jquery-3.6.0.js"></script>
-  <script>
-    $(document).ready(function(){
-      $("#icon").click(function(){
-        $("ul").toggleClass("show");
-      });
-    });
-  </script>
-  <title>Arprom</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assents/img/reset.css">
+    <link rel="stylesheet" href="/assents/img/style.css">
+    <title>ARPROM</title>
 </head>
+
 <body>
-  <nav>
-    <label class="logo">ARPROM</label>
-   <ul>
-    <li><a class="active" href="#">INICÍO</a></li>
-     <li><a href="#">SOBRE</a></li>
-     <li><a href="#">SEJA PARCEIRO</a></li>
-     <li><a href="#">PORTAL DO ALUNO</a></li>
-     <li><a href="#">CONTATO</a></li>
-   </ul>
-   <label id="icon">
-     <i class="fas fa-bars"></i>
-   </label>
-  </nav>
+    <header class="header">
+        <div class="h-container">
+            <nav class="h-nav-bar">
+                <h1 class="header__logo">ARPROM</h1>
+                <ul class="h-list">
+                    <li class="h-list__item"><a href="#">INICÍO</a></li>
+                    <li class="h-list__item"><a href="#">SOBRE</a></li>
+                    <li class="h-list__item"><a href="#">SEJA PARCEIRO</a></li>
+                    <li class="h-list__item"><a href="#">PORTAL DO ALUNO</a></li>
+                    <li class="h-list__item"><a href="#">CONTATO</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <section class="m-setion-carrossel"></section>
+        <section class="m-section-sobre"></section>
+        <section class="m-section-parceiro"></section>
+        <section class="m-section-aluno"></section>
+        <section class="m-section-contato"></section>
+    </main>
+    <footer>
+
+    </footer>
 </body>
+
 </html>
