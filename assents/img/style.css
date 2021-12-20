@@ -4,6 +4,12 @@
     text-decoration: none;
     list-style: none;
   }
+  
+  .logo img {
+    margin-top: 0.313rem;
+    display: block;
+  }
+  
   body {
     font-family: montserrat;
   }
