@@ -9,20 +9,18 @@ body {
   background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
 }
 .header .h-container{
-  width: 1048px;
+  width: 90%;
   margin: 0 auto;
 }
-.h-nav-bar .header__logo {
-  font-size: 2.3em;
-  font-weight: bold;
-  color: white;
-  width: 25%;
+.h-nav-bar .header__logo{
+  width: 15%;
   margin-right:5% ;
 }
 
 .h-nav-bar .h-list {
   display: flex;
   width: 70%;
+  flex-grow: 1;
 }
 .h-nav-bar .h-list__item a {
   color: white;
@@ -39,9 +37,13 @@ body {
 }
 .h-container .h-nav-bar{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   height: 80px;
 }
-
-/* FlexBox */
+/* MAIN DO SITE*/
+.main .m-setion-carrossel{
+  width: 100%;
+  background-color: gray;
+  height: 400px;
+}
